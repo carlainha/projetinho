@@ -1,0 +1,30 @@
+:root{
+    --yellow: #D3AD59;
+
+    --blue-100: #BFCFD9;
+    --blue-200: #7C9FB6;
+    --blue-300: #003C5C;
+
+    --gray: #CAC9C9;
+
+    --white: #fff;
+    --black: #000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--gray);
+    color: var(--black);
+    -webkit-font-smothing: antialiased;
+}
+
+body, input, textarea, button{
+    font-family: 'Kural';
+    font-weight: 400;
+    font-size: 1rem;
+}

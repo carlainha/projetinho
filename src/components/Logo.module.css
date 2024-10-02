@@ -1,0 +1,10 @@
+.logo{
+    background: var(--blue-200);
+    justify-content: center;
+    display: flex;
+}
+
+.logo img{
+    width: 130px;
+    height: 130px;
+}
